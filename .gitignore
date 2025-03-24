@@ -1,0 +1,37 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.pytest_cache/
+*.pytest_cache
+*.tox
+*.nox
+*.coverage
+*.hypothesis/
+
+# Django
+*.log
+*.sqlite3
+db.sqlite3
+*.pot
+*.mo
+*.mo~ 
+media
+staticfiles
+migrations
+
+# Virtualenv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# .env file for environment variables (you should not push this to git)
+.env
+
+
+# VSCode
+.vscode/
+
